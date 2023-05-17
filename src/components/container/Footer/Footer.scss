@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 3rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #F3EDDF;
+    column-gap: 2rem;
+
+    .copyright {
+
+        p{
+            font-size: 0.85rem;
+
+            span {
+                color: #FE9870;
+                font-weight: 800;
+            }
+        }
+    }
+    .followMe {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        h4 {
+            font-size: 0.85rem;
+        }
+        .stick {
+            height: 2px;
+            width: 3rem;
+            background: #F3EDDF;
+        }
+
+        .social_icons {
+            display: flex;
+            gap: 0.5rem;
+
+            svg {
+                opacity: 0.7;
+                cursor: pointer;
+                color: #F3EDDF;
+                &:hover {
+                    opacity: 1;  
+                    color: #78D7DD;    
+                }
+            }
+        }
+    }
+}
