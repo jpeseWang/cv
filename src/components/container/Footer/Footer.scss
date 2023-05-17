@@ -7,16 +7,16 @@
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    color: #F3EDDF;
+    color: #5350D6;
     column-gap: 2rem;
 
     .copyright {
 
         p{
-            font-size: 0.85rem;
+            font-size: 1 rem;
 
             span {
-                color: #FE9870;
+                color: #5350D6;
                 font-weight: 800;
             }
         }
@@ -27,12 +27,12 @@
         gap: 1rem;
 
         h4 {
-            font-size: 0.85rem;
+            font-size: 1rem;
         }
         .stick {
             height: 2px;
             width: 3rem;
-            background: #F3EDDF;
+            background: #5350D6;
         }
 
         .social_icons {
@@ -40,9 +40,9 @@
             gap: 0.5rem;
 
             svg {
-                opacity: 0.7;
+                opacity: 0.9;
                 cursor: pointer;
-                color: #F3EDDF;
+                color: #5350D6;
                 &:hover {
                     opacity: 1;  
                     color: #78D7DD;    
