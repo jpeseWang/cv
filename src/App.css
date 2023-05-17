@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 body {
-  background: #1C5998;
+  background: #DBE9F7;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
@@ -34,7 +34,7 @@ img {
   letter-spacing: 5px;
 }
 .title h1 {
-  color: #F3EDDF;
+  color: #5350D6;
   font-size: 3rem;
   position: relative;
 }

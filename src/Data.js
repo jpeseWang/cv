@@ -166,16 +166,16 @@ export const workImages = [
   {
     id: 1,
     img: work1,
-    name: "ReactJS 1",
+    name: "CodeWithMe",
     category: "CodeWithMe",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge20-React",
+    gitLab: "https://github.com/jpeseWang/Code-With-Me2",
     demo: "https://cuisines.netlify.app/",
   },
   {
     id: 2,
     img: work2,
     name: "ReactJS 2",
-    category: "ReactJS",
+    category: "SherlockTory",
     gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
     demo: "https://music-app-steph-dev.vercel.app/",
   },
@@ -184,7 +184,7 @@ export const workImages = [
     img: work3,
     name: "ReactJS 3",
     category: "ReactJS",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge18-React",
+    gitLab: "https://github.com/jakesdev/cwp-web",
     demo: "https://bike-store-steph-dev.vercel.app/",
   },
   {
