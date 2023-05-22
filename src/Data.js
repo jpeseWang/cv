@@ -11,13 +11,14 @@ import {
   FaLinkedin,
   FaGitAlt,
   FaBootstrap,
-  FaNodeJs
+  FaNodeJs,
+  FaAngular
   
 } from "react-icons/fa";
-import { SiJquery, SiJavascript, SiTailwindcss } from "react-icons/si";
+import { SiJquery, SiJavascript, SiTailwindcss, SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { VscJson } from "react-icons/vsc";
-import { DiScrum } from "react-icons/di";
+import { DiScrum, DiMongodb } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
@@ -112,8 +113,8 @@ export const icons = [
   
   {
     id: 10,
-    icon:  <SiJquery />,
-    bio: "jQuery"
+    icon:  <SiMongodb />,
+    bio: "MongoDB"
   },
   
   
@@ -125,8 +126,8 @@ export const icons = [
 
   {
     id: 12,
-    icon:  <DiScrum />,
-    bio: "SCRUM"
+    icon:  <FaAngular />,
+    bio: "Angular"
   },
  
 ];
@@ -177,7 +178,7 @@ export const workImages = [
     name: "ReactJS 2",
     category: "SherlockTory",
     gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
-    demo: "https://music-app-steph-dev.vercel.app/",
+    demo: "https://sherlocktory.vercel.app/",
   },
   {
     id: 3,
