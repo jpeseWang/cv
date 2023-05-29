@@ -168,53 +168,53 @@ export const workImages = [
     id: 1,
     img: work1,
     name: "CodeWithMe",
-    category: "CodeWithMe",
+    category: "Flask",
     gitLab: "https://github.com/jpeseWang/Code-With-Me2",
     demo: "https://cuisines.netlify.app/",
   },
   {
     id: 2,
     img: work2,
-    name: "ReactJS 2",
-    category: "SherlockTory",
+    name: "Sherlocktory",
+    category: "CSS/SASS/Boostrap",
     gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
     demo: "https://sherlocktory.vercel.app/",
   },
   {
     id: 3,
     img: work3,
-    name: "ReactJS 3",
-    category: "ReactJS",
-    gitLab: "https://github.com/jakesdev/cwp-web",
-    demo: "https://bike-store-steph-dev.vercel.app/",
+    name: "Heart2heart",
+    category: "Angular",
+    gitLab: "https://github.com/jpeseWang/ssg-web",
+    demo: "https://ssg-web-lilac.vercel.app",
   },
   {
     id: 4,
     img: work4,
-    name: "JavaScript 1",
-    category: "JavaScript",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
-    demo: "https://ajax-steph-dev.vercel.app/#",
+    name: "Leif Landing",
+    category: "ReactJS",
+    gitLab: "https://github.com/jpeseWang/Leif-Landing-Page",
+    demo: "https://leif-landing-page.vercel.app",
   },
   {
     id: 5,
     img: work5,
-    name: "JavaScript 2",
-    category: "JavaScript",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge15-jQuery",
+    name: "Sneakerpedia",
+    category: "CSS/SASS/Boostrap",
+    gitLab: "https://github.com/jpeseWang/Sneakerpedia",
     demo: "https://jquery-racegame-steph-dev.vercel.app/",
   },
   {
     id: 6,
     img: work6,
-    name: "JavaScript 3",
-    category: "JavaScript",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenges_14",
-    demo: "https://budget-app-steph-dev.vercel.app/",
+    name: "CWP",
+    category: "Angular",
+    gitLab: "https://github.com/jakesdev/cwp-web",
+    demo: "https://cwp-web.vercel.app",
   }
 ];
 
-export const workNavs = ["All", "ReactJS", "JavaScript", "SASS/Boostrap", "NextJS"];
+export const workNavs = ["All", "ReactJS", "Angular", "CSS/SASS/Boostrap", "ExpressJS"];
 
 export const contacts = [
   {
