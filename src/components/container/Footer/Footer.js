@@ -14,7 +14,9 @@ const Footer = () => {
       className="footer"
     >
       <div className="copyright">
+      <h1>Leif Le</h1>
         <p>
+        
           &copy; 2023 Jpese_Wang. All rights reserved.
         </p>
       </div>
