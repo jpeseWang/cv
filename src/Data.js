@@ -15,7 +15,7 @@ import {
   FaAngular
   
 } from "react-icons/fa";
-import { SiJavascript, SiTailwindcss, SiMongodb } from "react-icons/si";
+import { SiNestjs, SiTailwindcss, SiMongodb } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import work1 from "./assets/work1.png";
 import work2 from "./assets/work2.png";
@@ -94,8 +94,8 @@ export const icons = [
   },
   {
     id: 6,
-    icon:  <SiJavascript />,
-    bio: "JavaScript"
+    icon:  <SiNestjs />,
+    bio: "NestJS"
   },
   {
     id: 7,
