@@ -1,4 +1,4 @@
-.footer {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kaushan+Script&display=swap');.footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -20,6 +20,13 @@
                 font-weight: 800;
             }
         }
+    }
+    h1{
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 800;
+        background: linear-gradient(to right,hsl(224deg,85%,66%),hsl(269deg,85%,66%),hsl(314deg,85%,66%),hsl(359deg,85%,66%),hsl(44deg,85%,66%),hsl(89deg,85%,66%),hsl(134deg,85%,66%),hsl(179deg,85%,66%));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .followMe {
         display: flex;
