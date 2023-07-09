@@ -57,7 +57,7 @@ const Contact = () => {
         >
           <h3>Get In Touch</h3>
           <form
-            action="https://formsubmit.co/jpesewangwork@gmail.com"
+            action="https://formsubmit.co/608cee7b01fb53f0ba73714166dd81c9"
             method="POST"
           >
             {/* <!-- Honeypot --> */}
