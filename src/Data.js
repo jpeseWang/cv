@@ -12,8 +12,7 @@ import {
   FaGitAlt,
   FaBootstrap,
   FaNodeJs,
-  FaAngular
-  
+  FaAngular,
 } from "react-icons/fa";
 import { SiNestjs, SiTailwindcss, SiMongodb } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
@@ -23,7 +22,6 @@ import work3 from "./assets/work3.png";
 import work4 from "./assets/work4.png";
 import work5 from "./assets/work5.png";
 import work6 from "./assets/work6.png";
-
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
@@ -64,69 +62,67 @@ export const bios = [
 export const icons = [
   {
     id: 1,
-    icon:  <FaHtml5 />,
-    bio: "HTML"
+    icon: <FaHtml5 />,
+    bio: "HTML",
   },
   {
     id: 2,
-    icon:  <FaCss3 />,
-    bio: "CSS"
+    icon: <FaCss3 />,
+    bio: "CSS",
   },
   {
     id: 3,
-    icon:  <FaSass />,
-    bio: "SASS"
+    icon: <FaSass />,
+    bio: "SASS",
   },
   {
     id: 4,
-    icon:  <SiTailwindcss />,
-    bio: "TailwindCSS"
+    icon: <SiTailwindcss />,
+    bio: "TailwindCSS",
   },
   {
     id: 4,
-    icon:  <FaGitAlt />,
-    bio: "GIT"
+    icon: <FaGitAlt />,
+    bio: "GIT",
   },
   {
     id: 5,
-    icon:  <FaBootstrap />,
-    bio: "Boostrap"
+    icon: <FaBootstrap />,
+    bio: "Boostrap",
   },
   {
     id: 6,
-    icon:  <SiNestjs />,
-    bio: "NestJS"
+    icon: <SiNestjs />,
+    bio: "NestJS",
   },
   {
     id: 7,
-    icon:  <SiTypescript />,
-    bio: "Typesript"
+    icon: <SiTypescript />,
+    bio: "Typesript",
   },
   {
     id: 9,
-    icon:  <FaNodeJs />,
-    bio: "ExpressJS"
+    icon: <FaNodeJs />,
+    bio: "ExpressJS",
   },
-  
+
   {
     id: 10,
-    icon:  <SiMongodb />,
-    bio: "MongoDB"
+    icon: <SiMongodb />,
+    bio: "MongoDB",
   },
-  
-  
+
   {
     id: 11,
-    icon:  <FaReact />,
-    bio: "ReactJS"
+    icon: <FaReact />,
+    bio: "ReactJS",
   },
 
   {
     id: 12,
-    icon:  <FaAngular />,
-    bio: "Angular"
+    icon: <FaAngular />,
+    bio: "Angular",
   },
- 
 ];
 
 export const experiences = [
@@ -136,30 +132,36 @@ export const experiences = [
     position: "Front-End Developer",
     company: "FPT University",
   },
+  {
+    id: 2,
+    year: "06/2023",
+    position: "Front-End Developer",
+    company: "NCC Plus Asia",
+  },
 ];
 
-// export const finishes = [
-//   {
-//     id: 1,
-//     number: "6+",
-//     itemName: "Years Of Experience",
-//   },
-//   {
-//     id: 2,
-//     number: "150+",
-//     itemName: "Satisfied Customers",
-//   },
-//   {
-//     id: 3,
-//     number: "669+",
-//     itemName: "Designed Items",
-//   },
-//   {
-//     id: 4,
-//     number: "117+",
-//     itemName: "Clients Served",
-//   },
-// ];
+export const finishes = [
+  {
+    id: 1,
+    number: "6+",
+    itemName: "Years Of Experience",
+  },
+  {
+    id: 2,
+    number: "150+",
+    itemName: "Satisfied Customers",
+  },
+  {
+    id: 3,
+    number: "669+",
+    itemName: "Designed Items",
+  },
+  {
+    id: 4,
+    number: "117+",
+    itemName: "Clients Served",
+  },
+];
 export const workImages = [
   {
     id: 1,
@@ -174,7 +176,8 @@ export const workImages = [
     img: work2,
     name: "Sherlocktory",
     category: "CSS/SASS/Boostrap",
-    gitLab: "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
+    gitLab:
+      "https://gitlab.com/stefantrenda/brainsterchallenges_stefantrendafilovskife7/-/tree/Challenge_19-React",
     demo: "https://sherlocktory.vercel.app/",
   },
   {
@@ -196,10 +199,10 @@ export const workImages = [
   {
     id: 5,
     img: work5,
-    name: "Sneakerpedia",
-    category: "CSS/SASS/Boostrap",
-    gitLab: "https://github.com/jpeseWang/Sneakerpedia",
-    demo: "https://jquery-racegame-steph-dev.vercel.app/",
+    name: "Smart Funding",
+    category: "Angular",
+    gitLab: "https://github.com/jpeseWang/smartfund-web",
+    demo: "https://smartfund-web-9kmd.vercel.app/",
   },
   {
     id: 6,
@@ -208,10 +211,16 @@ export const workImages = [
     category: "Angular",
     gitLab: "https://github.com/jakesdev/cwp-web",
     demo: "https://cwp-web.vercel.app",
-  }
+  },
 ];
 
-export const workNavs = ["All", "ReactJS", "Angular", "CSS/SASS/Boostrap", "ExpressJS"];
+export const workNavs = [
+  "All",
+  "ReactJS",
+  "Angular",
+  "CSS/SASS/Boostrap",
+  "ExpressJS",
+];
 
 export const contacts = [
   {
